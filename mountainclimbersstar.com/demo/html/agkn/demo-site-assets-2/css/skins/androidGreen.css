@@ -1,0 +1,29 @@
+/*====================================================================
+- Android Green #A3CB38
+====================================================================*/
+
+.home .heading span,
+.footer .copyright a {
+    color: #A3CB38;
+}
+
+::selection,
+::-webkit-scrollbar-thumb,
+.demo-site .btn,
+.demo-site .btn:focus,
+.button-default,
+.button-border:hover {
+    background: #A3CB38;
+}
+
+.stop-color-2 {
+    stop-color: #A3CB38;
+}
+
+.demo-site .btn:hover {
+    border-color: #A3CB38;
+}
+
+.heading svg path {
+    stroke: #A3CB38 !important;
+}

@@ -1,0 +1,29 @@
+/*====================================================================
+- Orange #FF451B
+====================================================================*/
+
+.home .heading span,
+.footer .copyright a {
+    color: #FF451B;
+}
+
+::selection,
+::-webkit-scrollbar-thumb,
+.demo-site .btn,
+.demo-site .btn:focus,
+.button-default,
+.button-border:hover {
+    background: #FF451B;
+}
+
+.stop-color-2 {
+    stop-color: #FF451B;
+}
+
+.demo-site .btn:hover {
+    border-color: #FF451B;
+}
+
+.heading svg path {
+    stroke: #FF451B !important;
+}

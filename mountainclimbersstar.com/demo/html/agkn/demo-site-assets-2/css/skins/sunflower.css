@@ -1,0 +1,29 @@
+/*====================================================================
+- Sunflower #FFC312
+====================================================================*/
+
+.home .heading span,
+.footer .copyright a {
+    color: #FFC312;
+}
+
+::selection,
+::-webkit-scrollbar-thumb,
+.demo-site .btn,
+.demo-site .btn:focus,
+.button-default,
+.button-border:hover {
+    background: #FFC312;
+}
+
+.stop-color-2 {
+    stop-color: #FFC312;
+}
+
+.demo-site .btn:hover {
+    border-color: #FFC312;
+}
+
+.heading svg path {
+    stroke: #FFC312 !important;
+}

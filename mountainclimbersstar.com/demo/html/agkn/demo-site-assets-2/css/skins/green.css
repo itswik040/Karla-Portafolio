@@ -1,0 +1,29 @@
+/*====================================================================
+- Green #2FBF71
+====================================================================*/
+
+.home .heading span,
+.footer .copyright a {
+    color: #2FBF71;
+}
+
+::selection,
+::-webkit-scrollbar-thumb,
+.demo-site .btn,
+.demo-site .btn:focus,
+.button-default,
+.button-border:hover {
+    background: #2FBF71;
+}
+
+.stop-color-2 {
+    stop-color: #2FBF71;
+}
+
+.demo-site .btn:hover {
+    border-color: #2FBF71;
+}
+
+.heading svg path {
+    stroke: #2FBF71 !important;
+}

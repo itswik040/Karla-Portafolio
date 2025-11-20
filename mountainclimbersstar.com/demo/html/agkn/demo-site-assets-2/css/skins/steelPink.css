@@ -1,0 +1,30 @@
+/*====================================================================
+- Steel Pink #be2edd
+====================================================================*/
+
+
+.home .heading span,
+.footer .copyright a {
+    color: #be2edd;
+}
+
+::selection,
+::-webkit-scrollbar-thumb,
+.demo-site .btn,
+.demo-site .btn:focus,
+.button-default,
+.button-border:hover {
+    background: #be2edd;
+}
+
+.stop-color-2 {
+    stop-color: #be2edd;
+}
+
+.demo-site .btn:hover {
+    border-color: #be2edd;
+}
+
+.heading svg path {
+    stroke: #be2edd !important;
+}

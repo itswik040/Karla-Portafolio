@@ -1,0 +1,29 @@
+/*====================================================================
+- Lavender Rose #FDA7DF
+====================================================================*/
+
+.home .heading span,
+.footer .copyright a {
+    color: #FDA7DF;
+}
+
+::selection,
+::-webkit-scrollbar-thumb,
+.demo-site .btn,
+.demo-site .btn:focus,
+.button-default,
+.button-border:hover {
+    background: #FDA7DF;
+}
+
+.stop-color-2 {
+    stop-color: #FDA7DF;
+}
+
+.demo-site .btn:hover {
+    border-color: #FDA7DF;
+}
+
+.heading svg path {
+    stroke: #FDA7DF !important;
+}

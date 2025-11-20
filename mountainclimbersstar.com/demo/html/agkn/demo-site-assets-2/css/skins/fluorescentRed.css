@@ -1,0 +1,29 @@
+/*====================================================================
+- Fluorescent Red #ff5252
+====================================================================*/
+
+.home .heading span,
+.footer .copyright a {
+    color: #ff5252;
+}
+
+::selection,
+::-webkit-scrollbar-thumb,
+.demo-site .btn,
+.demo-site .btn:focus,
+.button-default,
+.button-border:hover {
+    background: #ff5252;
+}
+
+.stop-color-2 {
+    stop-color: #ff5252;
+}
+
+.demo-site .btn:hover {
+    border-color: #ff5252;
+}
+
+.heading svg path {
+    stroke: #ff5252 !important;
+}

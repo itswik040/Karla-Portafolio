@@ -1,0 +1,366 @@
+/* 
+==================================================
+- Template Name: AGKN
+- Author: MountainTheme 
+- Description: AGKN - Personal Portfolio HTML Template
+- Version: 2.1.0
+==================================================
+*/
+
+@media screen and (max-width: 991px) {
+
+    /*** Common CSS ***/
+    .section-ptb {
+        padding-top: 100px;
+        padding-bottom: 76px;
+    }
+
+    /*** Hamburger Menu ***/
+    .hamburger-menu {
+        display: block;
+    }
+
+    /*** Modal ***/
+    html[dir="rtl"] .modal-content button.modal-close {
+        right: auto;
+        left: 24px;
+    }
+
+    .modal-content button.modal-close {
+        top: 24px;
+        right: 24px;
+    }
+
+    /* [ Header ] */
+    #header .navbar-collapse {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #141824;
+        margin-top: 0;
+        z-index: 1000;
+    }
+
+    #header .navbar-collapse .navbar-nav {
+        padding: 15px;
+    }
+
+    #header .navbar-collapse .nav-item:not(:last-child) {
+        border-bottom: 1px solid rgba(49, 55, 74, 0.671);
+    }
+
+    #header .navbar-collapse .nav-link {
+        padding: 10px 0;
+        height: auto;
+        position: relative;
+    }
+
+    #header .primary-menu .nav-social-icon {
+        padding-bottom: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #header .primary-menu .nav-social-icon::before {
+        content: none;
+    }
+
+    /*** Nav 3 (Side nav) ***/
+    html[dir="rtl"] .side-header .main-wrapper {
+        margin-left: auto;
+        margin-right: 0px;
+    }
+
+    .side-header .main-wrapper {
+        margin-left: 0px;
+    }
+
+    .side-header #header .primary-menu {
+        width: 100%;
+        height: auto !important;
+        overflow: visible;
+    }
+
+    /*** Nav 4 (Powerful Side nav) ***/
+    html[dir="rtl"] .side-header.powerful-side-header .main-wrapper {
+        margin-left: auto;
+        margin-right: 0px;
+    }
+
+    .side-header.powerful-side-header .main-wrapper {
+        margin-left: 0px;
+    }
+
+    .side-header.powerful-side-header #header .primary-menu {
+        width: 100%;
+    }
+
+    .side-header.powerful-side-header .primary-menu .navbar-nav .nav-link .nav-link-text {
+        position: unset;
+        opacity: 1;
+        transform: unset;
+    }
+
+    /*** Home ***/
+    .hero-area .hero-content {
+        height: 100%;
+        padding-top: 100px;
+    }
+
+    .hero-area.hero-bg-area .hero-content {
+        height: 100vh;
+        padding-top: 60px;
+    }
+
+    .hero-area.hero-bg-area .hero-head {
+        font-size: 58px !important;
+    }
+
+    .hero-area .hero-content>.row {
+        width: unset;
+    }
+
+    html[dir=rtl] .hero-area .hero-image,
+    .hero-area .hero-image {
+        margin: auto;
+    }
+
+    /*** Slider Text ***/
+    .text-scroller-in h4 {
+        font-size: 64px !important;
+    }
+
+    /*** About ***/
+    .about,
+    .testimonial {
+        padding: 100px 0;
+    }
+
+    .about .image-exp {
+        width: 68%;
+        margin: auto;
+    }
+
+    .about .row>.col-lg-5 {
+        margin-bottom: 32px;
+    }
+
+    /*** News ***/
+    html[dir=rtl] .news-wrapper.big-news .news-cat,
+    html[dir=rtl] .news-wrapper .news-cat {
+        left: auto;
+        right: 20px;
+    }
+
+    html[dir=rtl] .news-wrapper.big-news .news-cat,
+    html[dir=rtl] .news-wrapper .news-cat {
+        left: auto;
+        right: 20px;
+    }
+
+    .news-wrapper.big-news .news-cat,
+    .news-wrapper .news-cat {
+        top: 20px;
+        left: 20px;
+    }
+
+    .news-wrapper.big-news .news-date,
+    .news-wrapper .news-date {
+        top: 20px;
+        right: 20px;
+    }
+
+    .news-wrapper.big-news h3,
+    .news-wrapper h3 {
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+    }
+
+    .news-wrapper h3 {
+        font-size: 21px !important;
+    }
+
+    /* News Modal */
+    .news-content .news-title {
+        font-size: 21px !important;
+    }
+
+    .news-content .news-title-tow {
+        font-size: 18px !important;
+    }
+
+    /*** Qute ***/
+    .qute {
+        padding: 90px 0;
+    }
+
+    .qute p {
+        font-size: 28px !important;
+    }
+
+    .qute svg {
+        width: 94px;
+    }
+
+    /*** Footer ***/
+    .footer {
+        padding: 58px 0;
+    }
+
+    /*** Terms & Policy, Disclaimer ***/
+    html[dir="rtl"] #terms-policy .modal-content button.modal-close,
+    html[dir="rtl"] #disclaimer .modal-content button.modal-close {
+        right: auto;
+        left: 4px;
+    }
+
+    #terms-policy .modal-content button.modal-close,
+    #disclaimer .modal-content button.modal-close {
+        right: 18px;
+        top: 4px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    /*** Common CSS ***/
+    .section-ptb {
+        padding-top: 80px;
+        padding-bottom: 56px;
+    }
+
+    .section-title {
+        margin-bottom: 42px;
+    }
+
+    /*** Nav 3 (Side nav) ***/
+    .side-header .primary-menu .navbar-brand h1 {
+        font-size: 21px !important;
+    }
+
+    /*** Home ***/
+    .hero-area .hero-content {
+        padding-top: 108px;
+    }
+
+    .hero-head {
+        font-size: 48px !important;
+        margin-bottom: 38px !important;
+    }
+
+    .hero-area.hero-bg-area .hero-head {
+        font-size: 38px !important;
+    }
+
+    .hero-area .link-group {
+        margin-bottom: 38px !important;
+    }
+
+    /*** About ***/
+    .about,
+    .testimonial {
+        padding: 80px 0;
+    }
+
+    .about .section-title {
+        margin-bottom: 72px;
+    }
+
+    .about .image-exp {
+        width: 100%;
+    }
+
+    .about .about-me hr.separator {
+        margin: 24px 0;
+    }
+
+    .about .address {
+        margin-bottom: 18px;
+    }
+
+    .about .address .info,
+    .about .address>.row:last-child .info {
+        margin-bottom: 10px;
+    }
+
+    .about-btn-group {
+        text-align: center;
+    }
+
+    .about-btn-group .button {
+        padding: 15px 32px;
+    }
+
+    /*** News ***/
+    html[dir=rtl] .news-wrapper.big-news .news-cat,
+    html[dir=rtl] .news-wrapper .news-cat {
+        left: auto;
+        right: 16px;
+    }
+
+    .news-wrapper.big-news .news-cat,
+    .news-wrapper .news-cat {
+        top: 16px;
+        left: 16px;
+    }
+
+    html[dir=rtl] .news-wrapper.big-news .news-date,
+    html[dir=rtl] .news-wrapper .news-date {
+        right: auto;
+        left: 16px;
+    }
+
+    .news-wrapper.big-news .news-date,
+    .news-wrapper .news-date {
+        top: 16px;
+        right: 16px;
+    }
+
+    .news-wrapper.big-news h3,
+    .news-wrapper h3 {
+        bottom: 16px;
+        left: 16px;
+        right: 16px;
+    }
+
+    .news-wrapper h3 {
+        font-size: 24px !important;
+    }
+
+    /*** Qute ***/
+    .qute {
+        padding: 64px 0;
+    }
+
+    .qute p {
+        font-size: 20px !important;
+    }
+
+    .qute svg {
+        width: 80px;
+    }
+
+    /*** Footer ***/
+    .footer {
+        padding: 52px 0;
+    }
+}
+
+@media screen and (max-width:344px) {
+
+    /*** News ***/
+    .news-wrapper h3 {
+        font-size: 18px !important;
+    }
+
+    /*** Qute ***/
+    .qute {
+        padding: 60px 0;
+    }
+
+    .qute p {
+        font-size: 18px !important;
+    }
+}

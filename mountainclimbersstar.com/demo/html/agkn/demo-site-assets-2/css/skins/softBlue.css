@@ -1,0 +1,29 @@
+/*====================================================================
+- Soft Blue #778beb
+====================================================================*/
+
+.home .heading span,
+.footer .copyright a {
+    color: #778beb;
+}
+
+::selection,
+::-webkit-scrollbar-thumb,
+.demo-site .btn,
+.demo-site .btn:focus,
+.button-default,
+.button-border:hover {
+    background: #778beb;
+}
+
+.stop-color-2 {
+    stop-color: #778beb;
+}
+
+.demo-site .btn:hover {
+    border-color: #778beb;
+}
+
+.heading svg path {
+    stroke: #778beb !important;
+}

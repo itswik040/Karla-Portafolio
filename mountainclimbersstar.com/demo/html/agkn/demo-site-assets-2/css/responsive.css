@@ -1,0 +1,119 @@
+/*
+Template Name: AGKN
+Author: MountainTheme
+Author URI: https://www.templatemonster.com/authors/mountaintheme/
+Template URI: https://mountainclimbersstar.com/demo/html/agkn/
+Description: AGKN - Personal Portfolio HTML Template
+Version: 2.1.0
+*/
+
+@media screen and (max-width:992px) {
+    .home-content:is(.pt-120) {
+        padding-top: 94px;
+    }
+
+    .home-content:is(.pb-120) {
+        padding-bottom: 94px;
+    }
+
+    .home .home-content::before {
+        width: 95%;
+        height: 78%;
+    }
+
+    .design-element span {
+        top: 14%;
+        right: 16%;
+    }
+
+    .design-element span::before {
+        top: -8px;
+        left: -9px;
+    }
+
+    .design-element img {
+        width: 31px;
+    }
+
+    .home .logo {
+        margin-bottom: 28px;
+    }
+
+    .home .logo img {
+        width: 26%;
+    }
+
+    .heading:is(.text-9xl) {
+        font-size: 38px !important;
+    }
+
+    .demo-site .title:is(.text-5xl) {
+        font-size: 30px !important;
+    }
+
+    .demo-site .title {
+        padding-bottom: 64px;
+    }
+
+    .demo-site .title.rtl {
+        padding-bottom: 0px;
+    }
+
+    .footer {
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .footer .footer-brand {
+        margin-bottom: 28px;
+    }
+
+    .footer .copyright p {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width:721px) {
+    .home-content:is(.pt-120) {
+        padding-top: 72px;
+    }
+
+    .home-content:is(.pb-120) {
+        padding-bottom: 72px;
+    }
+
+    .home .home-content::before {
+        width: 100%;
+        height: 80%;
+    }
+
+    .design-element span {
+        top: 8%;
+        right: 12%;
+    }
+
+    .design-element img {
+        width: 28px;
+    }
+
+    .home .logo {
+        margin-bottom: 28px;
+    }
+
+    .home .logo img {
+        width: 41%;
+    }
+
+    .home .logo .version {
+        font-size: 16px;
+    }
+
+    .heading:is(.text-9xl) {
+        font-size: 32px !important;
+    }
+
+    .demo-site .title,
+    .demo-site .rtl-p {
+        padding-bottom: 48px;
+    }
+}

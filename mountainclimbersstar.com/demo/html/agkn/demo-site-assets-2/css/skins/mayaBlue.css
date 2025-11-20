@@ -1,0 +1,29 @@
+/*====================================================================
+- Maya Blue #60C6FF
+====================================================================*/
+
+.home .heading span,
+.footer .copyright a {
+    color: #60C6FF;
+}
+
+::selection,
+::-webkit-scrollbar-thumb,
+.demo-site .btn,
+.demo-site .btn:focus,
+.button-default,
+.button-border:hover {
+    background: #60C6FF;
+}
+
+.stop-color-2 {
+    stop-color: #60C6FF;
+}
+
+.demo-site .btn:hover {
+    border-color: #60C6FF;
+}
+
+.heading svg path {
+    stroke: #60C6FF !important;
+}
